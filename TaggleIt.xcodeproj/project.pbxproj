@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E07B6851676551C00D47BB4 /* TIImageDto.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E07B6841676551B00D47BB4 /* TIImageDto.m */; };
+		4E07B6861676551C00D47BB4 /* TIImageDto.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E07B6841676551B00D47BB4 /* TIImageDto.m */; };
+		4E07B69616790A8E00D47BB4 /* TIMyLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E07B69516790A8E00D47BB4 /* TIMyLocation.m */; };
+		4E07B69716790A8E00D47BB4 /* TIMyLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E07B69516790A8E00D47BB4 /* TIMyLocation.m */; };
+		4E07B69A16796E0A00D47BB4 /* arrest.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E07B69916796E0A00D47BB4 /* arrest.png */; };
+		4E07B69B16796E0A00D47BB4 /* arrest.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E07B69916796E0A00D47BB4 /* arrest.png */; };
+		4E07B69E16797BF200D47BB4 /* mappinazure.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E07B69C16797BF100D47BB4 /* mappinazure.png */; };
+		4E07B69F16797BF200D47BB4 /* mappinazure.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E07B69C16797BF100D47BB4 /* mappinazure.png */; };
+		4E07B6A016797BF200D47BB4 /* mappinpink.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E07B69D16797BF200D47BB4 /* mappinpink.png */; };
+		4E07B6A116797BF200D47BB4 /* mappinpink.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E07B69D16797BF200D47BB4 /* mappinpink.png */; };
+		4E07B6A316797C2300D47BB4 /* mappinazure@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E07B6A216797C2300D47BB4 /* mappinazure@2x.png */; };
+		4E07B6A416797C2300D47BB4 /* mappinazure@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E07B6A216797C2300D47BB4 /* mappinazure@2x.png */; };
+		4E07B6A616797C5F00D47BB4 /* mappinpink@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E07B6A516797C5F00D47BB4 /* mappinpink@2x.png */; };
+		4E07B6A716797C5F00D47BB4 /* mappinpink@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E07B6A516797C5F00D47BB4 /* mappinpink@2x.png */; };
+		4E07B6AF167AE72100D47BB4 /* addPic.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E07B6AD167AE72100D47BB4 /* addPic.png */; };
+		4E07B6B0167AE72100D47BB4 /* addPic.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E07B6AD167AE72100D47BB4 /* addPic.png */; };
+		4E07B6B1167AE72100D47BB4 /* addPic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E07B6AE167AE72100D47BB4 /* addPic@2x.png */; };
+		4E07B6B2167AE72100D47BB4 /* addPic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E07B6AE167AE72100D47BB4 /* addPic@2x.png */; };
+		4E085A1E1666E13B00D1D422 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E085A1D1666E13B00D1D422 /* MapKit.framework */; };
+		4E085A221666E26600D1D422 /* MapViewAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E085A211666E26600D1D422 /* MapViewAnnotation.m */; };
+		4E085A231666E26600D1D422 /* MapViewAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E085A211666E26600D1D422 /* MapViewAnnotation.m */; };
+		4E085A251666E4DC00D1D422 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E085A241666E4DC00D1D422 /* CoreLocation.framework */; };
+		4E1CFE96167E498500E191AB /* TIGoogleMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1CFE94167E498400E191AB /* TIGoogleMapViewController.m */; };
+		4E1CFE97167E498500E191AB /* TIGoogleMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1CFE94167E498400E191AB /* TIGoogleMapViewController.m */; };
+		4E1CFE98167E498500E191AB /* TIGoogleMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E1CFE95167E498400E191AB /* TIGoogleMapViewController.xib */; };
+		4E1CFE99167E498500E191AB /* TIGoogleMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E1CFE95167E498400E191AB /* TIGoogleMapViewController.xib */; };
+		4E3DF7F61664DB9100410A26 /* TIAbstractViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3DF7F41664DB9100410A26 /* TIAbstractViewController.m */; };
+		4E3DF7F71664DB9100410A26 /* TIAbstractViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E3DF7F51664DB9100410A26 /* TIAbstractViewController.xib */; };
+		4E3DF7FB1665DB6100410A26 /* TIAddEditTagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3DF7F91665DB6100410A26 /* TIAddEditTagsViewController.m */; };
+		4E3DF7FC1665DB6100410A26 /* TIAddEditTagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3DF7F91665DB6100410A26 /* TIAddEditTagsViewController.m */; };
+		4E3DF7FD1665DB6100410A26 /* TIAddEditTagsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E3DF7FA1665DB6100410A26 /* TIAddEditTagsViewController.xib */; };
+		4E3DF7FE1665DB6100410A26 /* TIAddEditTagsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E3DF7FA1665DB6100410A26 /* TIAddEditTagsViewController.xib */; };
+		4E3DF8021666105B00410A26 /* TITripDto.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3DF8011666105B00410A26 /* TITripDto.m */; };
+		4E3DF8031666105B00410A26 /* TITripDto.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3DF8011666105B00410A26 /* TITripDto.m */; };
+		4E3DF8061666298B00410A26 /* TITagDto.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3DF8051666298B00410A26 /* TITagDto.m */; };
+		4E3DF8071666298B00410A26 /* TITagDto.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3DF8051666298B00410A26 /* TITagDto.m */; };
+		4E44AA37165C954700D274C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E44AA36165C954700D274C3 /* UIKit.framework */; };
+		4E44AA39165C954700D274C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E44AA38165C954700D274C3 /* Foundation.framework */; };
+		4E44AA3B165C954700D274C3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E44AA3A165C954700D274C3 /* CoreGraphics.framework */; };
+		4E44AA41165C954700D274C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E44AA3F165C954700D274C3 /* InfoPlist.strings */; };
+		4E44AA43165C954700D274C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E44AA42165C954700D274C3 /* main.m */; };
+		4E44AA47165C954700D274C3 /* TIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E44AA46165C954700D274C3 /* TIAppDelegate.m */; };
+		4E44AA49165C954700D274C3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E44AA48165C954700D274C3 /* Default.png */; };
+		4E44AA4B165C954700D274C3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E44AA4A165C954700D274C3 /* Default@2x.png */; };
+		4E44AA4D165C954700D274C3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E44AA4C165C954700D274C3 /* Default-568h@2x.png */; };
+		4E44AA50165C954700D274C3 /* TIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E44AA4F165C954700D274C3 /* TIViewController.m */; };
+		4E44AA53165C954700D274C3 /* TIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E44AA51165C954700D274C3 /* TIViewController.xib */; };
+		4E44AA5B165C954700D274C3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E44AA5A165C954700D274C3 /* SenTestingKit.framework */; };
+		4E44AA5C165C954700D274C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E44AA36165C954700D274C3 /* UIKit.framework */; };
+		4E44AA5D165C954700D274C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E44AA38165C954700D274C3 /* Foundation.framework */; };
+		4E44AA65165C954700D274C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E44AA63165C954700D274C3 /* InfoPlist.strings */; };
+		4E44AA68165C954700D274C3 /* TaggleItTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E44AA67165C954700D274C3 /* TaggleItTests.m */; };
+		4E44AA72165C9BCF00D274C3 /* taggle.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 4E44AA71165C9BCF00D274C3 /* taggle.sqlite */; };
+		4E44AA73165C9BCF00D274C3 /* taggle.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 4E44AA71165C9BCF00D274C3 /* taggle.sqlite */; };
+		4E44AA77165C9C1400D274C3 /* TITripService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E44AA76165C9C1400D274C3 /* TITripService.m */; };
+		4E44AA78165C9C1400D274C3 /* TITripService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E44AA76165C9C1400D274C3 /* TITripService.m */; };
+		4E44AA8A165C9CBF00D274C3 /* DAUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E44AA89165C9CBF00D274C3 /* DAUtility.m */; };
+		4E44AA8B165C9CBF00D274C3 /* DAUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E44AA89165C9CBF00D274C3 /* DAUtility.m */; };
+		4E44AA97165CA4E100D274C3 /* CSRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E44AA92165CA4E100D274C3 /* CSRepository.m */; };
+		4E44AA98165CA4E100D274C3 /* CSRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E44AA92165CA4E100D274C3 /* CSRepository.m */; };
+		4E44AA99165CA4E100D274C3 /* CSDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E44AA94165CA4E100D274C3 /* CSDatabase.m */; };
+		4E44AA9A165CA4E100D274C3 /* CSDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E44AA94165CA4E100D274C3 /* CSDatabase.m */; };
+		4E44AA9B165CA4E100D274C3 /* CSDataBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E44AA96165CA4E100D274C3 /* CSDataBaseManager.m */; };
+		4E44AA9C165CA4E100D274C3 /* CSDataBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E44AA96165CA4E100D274C3 /* CSDataBaseManager.m */; };
+		4E44AAA1165CA5D000D274C3 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E44AA9D165CA55900D274C3 /* libsqlite3.0.dylib */; };
+		4E44AAA2165CA5F600D274C3 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E44AA9D165CA55900D274C3 /* libsqlite3.0.dylib */; };
+		4ECC20AD167D58D5004F5A64 /* TIGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC20AB167D58D5004F5A64 /* TIGalleryViewController.m */; };
+		4ECC20AE167D58D5004F5A64 /* TIGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC20AB167D58D5004F5A64 /* TIGalleryViewController.m */; };
+		4ECC20AF167D58D5004F5A64 /* TIGalleryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ECC20AC167D58D5004F5A64 /* TIGalleryViewController.xib */; };
+		4ECC20B0167D58D5004F5A64 /* TIGalleryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ECC20AC167D58D5004F5A64 /* TIGalleryViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E44AA5E165C954700D274C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E44AA29165C954700D274C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E44AA31165C954700D274C3;
+			remoteInfo = TaggleIt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E07B6831676551B00D47BB4 /* TIImageDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIImageDto.h; sourceTree = "<group>"; };
+		4E07B6841676551B00D47BB4 /* TIImageDto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIImageDto.m; sourceTree = "<group>"; };
+		4E07B69416790A8E00D47BB4 /* TIMyLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIMyLocation.h; sourceTree = "<group>"; };
+		4E07B69516790A8E00D47BB4 /* TIMyLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIMyLocation.m; sourceTree = "<group>"; };
+		4E07B69916796E0A00D47BB4 /* arrest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrest.png; sourceTree = "<group>"; };
+		4E07B69C16797BF100D47BB4 /* mappinazure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mappinazure.png; sourceTree = "<group>"; };
+		4E07B69D16797BF200D47BB4 /* mappinpink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mappinpink.png; sourceTree = "<group>"; };
+		4E07B6A216797C2300D47BB4 /* mappinazure@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mappinazure@2x.png"; sourceTree = "<group>"; };
+		4E07B6A516797C5F00D47BB4 /* mappinpink@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mappinpink@2x.png"; sourceTree = "<group>"; };
+		4E07B6AD167AE72100D47BB4 /* addPic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = addPic.png; path = TaggleItTests/addPic.png; sourceTree = SOURCE_ROOT; };
+		4E07B6AE167AE72100D47BB4 /* addPic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "addPic@2x.png"; path = "TaggleItTests/addPic@2x.png"; sourceTree = SOURCE_ROOT; };
+		4E085A1D1666E13B00D1D422 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4E085A201666E26600D1D422 /* MapViewAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewAnnotation.h; sourceTree = "<group>"; };
+		4E085A211666E26600D1D422 /* MapViewAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewAnnotation.m; sourceTree = "<group>"; };
+		4E085A241666E4DC00D1D422 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4E1CFE93167E498400E191AB /* TIGoogleMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIGoogleMapViewController.h; sourceTree = "<group>"; };
+		4E1CFE94167E498400E191AB /* TIGoogleMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIGoogleMapViewController.m; sourceTree = "<group>"; };
+		4E1CFE95167E498400E191AB /* TIGoogleMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TIGoogleMapViewController.xib; sourceTree = "<group>"; };
+		4E3DF7F31664DB9100410A26 /* TIAbstractViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIAbstractViewController.h; sourceTree = "<group>"; };
+		4E3DF7F41664DB9100410A26 /* TIAbstractViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIAbstractViewController.m; sourceTree = "<group>"; };
+		4E3DF7F51664DB9100410A26 /* TIAbstractViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TIAbstractViewController.xib; sourceTree = "<group>"; };
+		4E3DF7F81665DB6100410A26 /* TIAddEditTagsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIAddEditTagsViewController.h; sourceTree = "<group>"; };
+		4E3DF7F91665DB6100410A26 /* TIAddEditTagsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIAddEditTagsViewController.m; sourceTree = "<group>"; };
+		4E3DF7FA1665DB6100410A26 /* TIAddEditTagsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TIAddEditTagsViewController.xib; sourceTree = "<group>"; };
+		4E3DF8001666105B00410A26 /* TITripDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TITripDto.h; sourceTree = "<group>"; };
+		4E3DF8011666105B00410A26 /* TITripDto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TITripDto.m; sourceTree = "<group>"; };
+		4E3DF8041666298B00410A26 /* TITagDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TITagDto.h; sourceTree = "<group>"; };
+		4E3DF8051666298B00410A26 /* TITagDto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TITagDto.m; sourceTree = "<group>"; };
+		4E44AA32165C954700D274C3 /* TaggleIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaggleIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E44AA36165C954700D274C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4E44AA38165C954700D274C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4E44AA3A165C954700D274C3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4E44AA3E165C954700D274C3 /* TaggleIt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TaggleIt-Info.plist"; sourceTree = "<group>"; };
+		4E44AA40165C954700D274C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4E44AA42165C954700D274C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E44AA44165C954700D274C3 /* TaggleIt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TaggleIt-Prefix.pch"; sourceTree = "<group>"; };
+		4E44AA45165C954700D274C3 /* TIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TIAppDelegate.h; sourceTree = "<group>"; };
+		4E44AA46165C954700D274C3 /* TIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TIAppDelegate.m; sourceTree = "<group>"; };
+		4E44AA48165C954700D274C3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4E44AA4A165C954700D274C3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4E44AA4C165C954700D274C3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4E44AA4E165C954700D274C3 /* TIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TIViewController.h; sourceTree = "<group>"; };
+		4E44AA4F165C954700D274C3 /* TIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TIViewController.m; sourceTree = "<group>"; };
+		4E44AA52165C954700D274C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TIViewController.xib; sourceTree = "<group>"; };
+		4E44AA59165C954700D274C3 /* TaggleItTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaggleItTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E44AA5A165C954700D274C3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4E44AA62165C954700D274C3 /* TaggleItTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TaggleItTests-Info.plist"; sourceTree = "<group>"; };
+		4E44AA64165C954700D274C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4E44AA66165C954700D274C3 /* TaggleItTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaggleItTests.h; sourceTree = "<group>"; };
+		4E44AA67165C954700D274C3 /* TaggleItTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaggleItTests.m; sourceTree = "<group>"; };
+		4E44AA71165C9BCF00D274C3 /* taggle.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = taggle.sqlite; sourceTree = "<group>"; };
+		4E44AA75165C9C1400D274C3 /* TITripService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TITripService.h; sourceTree = "<group>"; };
+		4E44AA76165C9C1400D274C3 /* TITripService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TITripService.m; sourceTree = "<group>"; };
+		4E44AA88165C9CBF00D274C3 /* DAUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAUtility.h; sourceTree = "<group>"; };
+		4E44AA89165C9CBF00D274C3 /* DAUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAUtility.m; sourceTree = "<group>"; };
+		4E44AA8C165C9CDF00D274C3 /* DAConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAConstants.h; sourceTree = "<group>"; };
+		4E44AA91165CA4E100D274C3 /* CSRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSRepository.h; sourceTree = "<group>"; };
+		4E44AA92165CA4E100D274C3 /* CSRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSRepository.m; sourceTree = "<group>"; };
+		4E44AA93165CA4E100D274C3 /* CSDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSDatabase.h; sourceTree = "<group>"; };
+		4E44AA94165CA4E100D274C3 /* CSDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSDatabase.m; sourceTree = "<group>"; };
+		4E44AA95165CA4E100D274C3 /* CSDataBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSDataBaseManager.h; sourceTree = "<group>"; };
+		4E44AA96165CA4E100D274C3 /* CSDataBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSDataBaseManager.m; sourceTree = "<group>"; };
+		4E44AA9D165CA55900D274C3 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		4ECC20AA167D58D5004F5A64 /* TIGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIGalleryViewController.h; sourceTree = "<group>"; };
+		4ECC20AB167D58D5004F5A64 /* TIGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIGalleryViewController.m; sourceTree = "<group>"; };
+		4ECC20AC167D58D5004F5A64 /* TIGalleryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TIGalleryViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E44AA2F165C954700D274C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E085A251666E4DC00D1D422 /* CoreLocation.framework in Frameworks */,
+				4E085A1E1666E13B00D1D422 /* MapKit.framework in Frameworks */,
+				4E44AAA2165CA5F600D274C3 /* libsqlite3.0.dylib in Frameworks */,
+				4E44AA37165C954700D274C3 /* UIKit.framework in Frameworks */,
+				4E44AA39165C954700D274C3 /* Foundation.framework in Frameworks */,
+				4E44AA3B165C954700D274C3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E44AA55165C954700D274C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E44AAA1165CA5D000D274C3 /* libsqlite3.0.dylib in Frameworks */,
+				4E44AA5B165C954700D274C3 /* SenTestingKit.framework in Frameworks */,
+				4E44AA5C165C954700D274C3 /* UIKit.framework in Frameworks */,
+				4E44AA5D165C954700D274C3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E3DF7F01664DB5F00410A26 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4E3DF7F21664DB6D00410A26 /* Base */,
+				4E44AA4E165C954700D274C3 /* TIViewController.h */,
+				4E44AA4F165C954700D274C3 /* TIViewController.m */,
+				4E44AA51165C954700D274C3 /* TIViewController.xib */,
+				4E3DF7F81665DB6100410A26 /* TIAddEditTagsViewController.h */,
+				4E3DF7F91665DB6100410A26 /* TIAddEditTagsViewController.m */,
+				4E3DF7FA1665DB6100410A26 /* TIAddEditTagsViewController.xib */,
+				4ECC20AA167D58D5004F5A64 /* TIGalleryViewController.h */,
+				4ECC20AB167D58D5004F5A64 /* TIGalleryViewController.m */,
+				4ECC20AC167D58D5004F5A64 /* TIGalleryViewController.xib */,
+				4E1CFE93167E498400E191AB /* TIGoogleMapViewController.h */,
+				4E1CFE94167E498400E191AB /* TIGoogleMapViewController.m */,
+				4E1CFE95167E498400E191AB /* TIGoogleMapViewController.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		4E3DF7F21664DB6D00410A26 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4E085A201666E26600D1D422 /* MapViewAnnotation.h */,
+				4E085A211666E26600D1D422 /* MapViewAnnotation.m */,
+				4E3DF7F31664DB9100410A26 /* TIAbstractViewController.h */,
+				4E3DF7F41664DB9100410A26 /* TIAbstractViewController.m */,
+				4E3DF7F51664DB9100410A26 /* TIAbstractViewController.xib */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		4E3DF7FF1665E17400410A26 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				4E3DF8001666105B00410A26 /* TITripDto.h */,
+				4E3DF8011666105B00410A26 /* TITripDto.m */,
+				4E3DF8041666298B00410A26 /* TITagDto.h */,
+				4E3DF8051666298B00410A26 /* TITagDto.m */,
+				4E07B6831676551B00D47BB4 /* TIImageDto.h */,
+				4E07B6841676551B00D47BB4 /* TIImageDto.m */,
+			);
+			name = DTO;
+			sourceTree = "<group>";
+		};
+		4E44AA27165C954700D274C3 = {
+			isa = PBXGroup;
+			children = (
+				4E085A241666E4DC00D1D422 /* CoreLocation.framework */,
+				4E085A1D1666E13B00D1D422 /* MapKit.framework */,
+				4E44AA9D165CA55900D274C3 /* libsqlite3.0.dylib */,
+				4E44AA3C165C954700D274C3 /* TaggleIt */,
+				4E44AA60165C954700D274C3 /* TaggleItTests */,
+				4E44AA35165C954700D274C3 /* Frameworks */,
+				4E44AA33165C954700D274C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E44AA33165C954700D274C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E44AA32165C954700D274C3 /* TaggleIt.app */,
+				4E44AA59165C954700D274C3 /* TaggleItTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E44AA35165C954700D274C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E44AA36165C954700D274C3 /* UIKit.framework */,
+				4E44AA38165C954700D274C3 /* Foundation.framework */,
+				4E44AA3A165C954700D274C3 /* CoreGraphics.framework */,
+				4E44AA5A165C954700D274C3 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E44AA3C165C954700D274C3 /* TaggleIt */ = {
+			isa = PBXGroup;
+			children = (
+				4E3DF7F01664DB5F00410A26 /* ViewController */,
+				4E44AA87165C9CAA00D274C3 /* Utility */,
+				4E44AA79165C9C1F00D274C3 /* Model */,
+				4E44AA74165C9BF300D274C3 /* Services */,
+				4E44AA45165C954700D274C3 /* TIAppDelegate.h */,
+				4E44AA46165C954700D274C3 /* TIAppDelegate.m */,
+				4E44AA3D165C954700D274C3 /* Supporting Files */,
+			);
+			path = TaggleIt;
+			sourceTree = "<group>";
+		};
+		4E44AA3D165C954700D274C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E07B6AD167AE72100D47BB4 /* addPic.png */,
+				4E07B6AE167AE72100D47BB4 /* addPic@2x.png */,
+				4E44AA71165C9BCF00D274C3 /* taggle.sqlite */,
+				4E44AA3E165C954700D274C3 /* TaggleIt-Info.plist */,
+				4E44AA3F165C954700D274C3 /* InfoPlist.strings */,
+				4E44AA42165C954700D274C3 /* main.m */,
+				4E44AA44165C954700D274C3 /* TaggleIt-Prefix.pch */,
+				4E44AA48165C954700D274C3 /* Default.png */,
+				4E44AA4A165C954700D274C3 /* Default@2x.png */,
+				4E44AA4C165C954700D274C3 /* Default-568h@2x.png */,
+				4E07B69C16797BF100D47BB4 /* mappinazure.png */,
+				4E07B6A216797C2300D47BB4 /* mappinazure@2x.png */,
+				4E07B69D16797BF200D47BB4 /* mappinpink.png */,
+				4E07B6A516797C5F00D47BB4 /* mappinpink@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E44AA60165C954700D274C3 /* TaggleItTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E44AA66165C954700D274C3 /* TaggleItTests.h */,
+				4E44AA67165C954700D274C3 /* TaggleItTests.m */,
+				4E44AA61165C954700D274C3 /* Supporting Files */,
+			);
+			path = TaggleItTests;
+			sourceTree = "<group>";
+		};
+		4E44AA61165C954700D274C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E07B69916796E0A00D47BB4 /* arrest.png */,
+				4E44AA62165C954700D274C3 /* TaggleItTests-Info.plist */,
+				4E44AA63165C954700D274C3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E44AA74165C9BF300D274C3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4E44AA75165C9C1400D274C3 /* TITripService.h */,
+				4E44AA76165C9C1400D274C3 /* TITripService.m */,
+				4E07B69416790A8E00D47BB4 /* TIMyLocation.h */,
+				4E07B69516790A8E00D47BB4 /* TIMyLocation.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		4E44AA79165C9C1F00D274C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4E3DF7FF1665E17400410A26 /* DTO */,
+				4E44AA7A165C9C2800D274C3 /* DB */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4E44AA7A165C9C2800D274C3 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				4E44AA91165CA4E100D274C3 /* CSRepository.h */,
+				4E44AA92165CA4E100D274C3 /* CSRepository.m */,
+				4E44AA93165CA4E100D274C3 /* CSDatabase.h */,
+				4E44AA94165CA4E100D274C3 /* CSDatabase.m */,
+				4E44AA95165CA4E100D274C3 /* CSDataBaseManager.h */,
+				4E44AA96165CA4E100D274C3 /* CSDataBaseManager.m */,
+			);
+			name = DB;
+			sourceTree = "<group>";
+		};
+		4E44AA87165C9CAA00D274C3 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				4E44AA88165C9CBF00D274C3 /* DAUtility.h */,
+				4E44AA89165C9CBF00D274C3 /* DAUtility.m */,
+				4E44AA8C165C9CDF00D274C3 /* DAConstants.h */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E44AA31165C954700D274C3 /* TaggleIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E44AA6B165C954700D274C3 /* Build configuration list for PBXNativeTarget "TaggleIt" */;
+			buildPhases = (
+				4E44AA2E165C954700D274C3 /* Sources */,
+				4E44AA2F165C954700D274C3 /* Frameworks */,
+				4E44AA30165C954700D274C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaggleIt;
+			productName = TaggleIt;
+			productReference = 4E44AA32165C954700D274C3 /* TaggleIt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E44AA58165C954700D274C3 /* TaggleItTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E44AA6E165C954700D274C3 /* Build configuration list for PBXNativeTarget "TaggleItTests" */;
+			buildPhases = (
+				4E44AA54165C954700D274C3 /* Sources */,
+				4E44AA55165C954700D274C3 /* Frameworks */,
+				4E44AA56165C954700D274C3 /* Resources */,
+				4E44AA57165C954700D274C3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E44AA5F165C954700D274C3 /* PBXTargetDependency */,
+			);
+			name = TaggleItTests;
+			productName = TaggleItTests;
+			productReference = 4E44AA59165C954700D274C3 /* TaggleItTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E44AA29165C954700D274C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TI;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Sadasivan Arun";
+			};
+			buildConfigurationList = 4E44AA2C165C954700D274C3 /* Build configuration list for PBXProject "TaggleIt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4E44AA27165C954700D274C3;
+			productRefGroup = 4E44AA33165C954700D274C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E44AA31165C954700D274C3 /* TaggleIt */,
+				4E44AA58165C954700D274C3 /* TaggleItTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E44AA30165C954700D274C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E44AA41165C954700D274C3 /* InfoPlist.strings in Resources */,
+				4E44AA49165C954700D274C3 /* Default.png in Resources */,
+				4E44AA4B165C954700D274C3 /* Default@2x.png in Resources */,
+				4E44AA4D165C954700D274C3 /* Default-568h@2x.png in Resources */,
+				4E44AA53165C954700D274C3 /* TIViewController.xib in Resources */,
+				4E44AA72165C9BCF00D274C3 /* taggle.sqlite in Resources */,
+				4E3DF7F71664DB9100410A26 /* TIAbstractViewController.xib in Resources */,
+				4E3DF7FD1665DB6100410A26 /* TIAddEditTagsViewController.xib in Resources */,
+				4E07B69A16796E0A00D47BB4 /* arrest.png in Resources */,
+				4E07B69E16797BF200D47BB4 /* mappinazure.png in Resources */,
+				4E07B6A016797BF200D47BB4 /* mappinpink.png in Resources */,
+				4E07B6A316797C2300D47BB4 /* mappinazure@2x.png in Resources */,
+				4E07B6A616797C5F00D47BB4 /* mappinpink@2x.png in Resources */,
+				4E07B6AF167AE72100D47BB4 /* addPic.png in Resources */,
+				4E07B6B1167AE72100D47BB4 /* addPic@2x.png in Resources */,
+				4ECC20AF167D58D5004F5A64 /* TIGalleryViewController.xib in Resources */,
+				4E1CFE98167E498500E191AB /* TIGoogleMapViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E44AA56165C954700D274C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E44AA65165C954700D274C3 /* InfoPlist.strings in Resources */,
+				4E44AA73165C9BCF00D274C3 /* taggle.sqlite in Resources */,
+				4E3DF7FE1665DB6100410A26 /* TIAddEditTagsViewController.xib in Resources */,
+				4E07B69B16796E0A00D47BB4 /* arrest.png in Resources */,
+				4E07B69F16797BF200D47BB4 /* mappinazure.png in Resources */,
+				4E07B6A116797BF200D47BB4 /* mappinpink.png in Resources */,
+				4E07B6A416797C2300D47BB4 /* mappinazure@2x.png in Resources */,
+				4E07B6A716797C5F00D47BB4 /* mappinpink@2x.png in Resources */,
+				4E07B6B0167AE72100D47BB4 /* addPic.png in Resources */,
+				4E07B6B2167AE72100D47BB4 /* addPic@2x.png in Resources */,
+				4ECC20B0167D58D5004F5A64 /* TIGalleryViewController.xib in Resources */,
+				4E1CFE99167E498500E191AB /* TIGoogleMapViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E44AA57165C954700D274C3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E44AA2E165C954700D274C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E44AA43165C954700D274C3 /* main.m in Sources */,
+				4E44AA47165C954700D274C3 /* TIAppDelegate.m in Sources */,
+				4E44AA50165C954700D274C3 /* TIViewController.m in Sources */,
+				4E44AA77165C9C1400D274C3 /* TITripService.m in Sources */,
+				4E44AA8A165C9CBF00D274C3 /* DAUtility.m in Sources */,
+				4E44AA97165CA4E100D274C3 /* CSRepository.m in Sources */,
+				4E44AA99165CA4E100D274C3 /* CSDatabase.m in Sources */,
+				4E44AA9B165CA4E100D274C3 /* CSDataBaseManager.m in Sources */,
+				4E3DF7F61664DB9100410A26 /* TIAbstractViewController.m in Sources */,
+				4E3DF7FB1665DB6100410A26 /* TIAddEditTagsViewController.m in Sources */,
+				4E3DF8021666105B00410A26 /* TITripDto.m in Sources */,
+				4E3DF8061666298B00410A26 /* TITagDto.m in Sources */,
+				4E085A221666E26600D1D422 /* MapViewAnnotation.m in Sources */,
+				4E07B6851676551C00D47BB4 /* TIImageDto.m in Sources */,
+				4E07B69616790A8E00D47BB4 /* TIMyLocation.m in Sources */,
+				4ECC20AD167D58D5004F5A64 /* TIGalleryViewController.m in Sources */,
+				4E1CFE96167E498500E191AB /* TIGoogleMapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E44AA54165C954700D274C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E44AA68165C954700D274C3 /* TaggleItTests.m in Sources */,
+				4E44AA78165C9C1400D274C3 /* TITripService.m in Sources */,
+				4E44AA8B165C9CBF00D274C3 /* DAUtility.m in Sources */,
+				4E44AA98165CA4E100D274C3 /* CSRepository.m in Sources */,
+				4E44AA9A165CA4E100D274C3 /* CSDatabase.m in Sources */,
+				4E44AA9C165CA4E100D274C3 /* CSDataBaseManager.m in Sources */,
+				4E3DF7FC1665DB6100410A26 /* TIAddEditTagsViewController.m in Sources */,
+				4E3DF8031666105B00410A26 /* TITripDto.m in Sources */,
+				4E3DF8071666298B00410A26 /* TITagDto.m in Sources */,
+				4E085A231666E26600D1D422 /* MapViewAnnotation.m in Sources */,
+				4E07B6861676551C00D47BB4 /* TIImageDto.m in Sources */,
+				4E07B69716790A8E00D47BB4 /* TIMyLocation.m in Sources */,
+				4ECC20AE167D58D5004F5A64 /* TIGalleryViewController.m in Sources */,
+				4E1CFE97167E498500E191AB /* TIGoogleMapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E44AA5F165C954700D274C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E44AA31165C954700D274C3 /* TaggleIt */;
+			targetProxy = 4E44AA5E165C954700D274C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E44AA3F165C954700D274C3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E44AA40165C954700D274C3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4E44AA51165C954700D274C3 /* TIViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E44AA52165C954700D274C3 /* en */,
+			);
+			name = TIViewController.xib;
+			sourceTree = "<group>";
+		};
+		4E44AA63165C954700D274C3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E44AA64165C954700D274C3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E44AA69165C954700D274C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4E44AA6A165C954700D274C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E44AA6C165C954700D274C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sreekumar A (8287E68JHN)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaggleIt/TaggleIt-Prefix.pch";
+				INFOPLIST_FILE = "TaggleIt/TaggleIt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "674216B4-1F7B-47E9-8F4E-E7C35F9CB0E9";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4E44AA6D165C954700D274C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaggleIt/TaggleIt-Prefix.pch";
+				INFOPLIST_FILE = "TaggleIt/TaggleIt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4E44AA6F165C954700D274C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TaggleIt.app/TaggleIt";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaggleIt/TaggleIt-Prefix.pch";
+				INFOPLIST_FILE = "TaggleItTests/TaggleItTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4E44AA70165C954700D274C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TaggleIt.app/TaggleIt";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaggleIt/TaggleIt-Prefix.pch";
+				INFOPLIST_FILE = "TaggleItTests/TaggleItTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E44AA2C165C954700D274C3 /* Build configuration list for PBXProject "TaggleIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E44AA69165C954700D274C3 /* Debug */,
+				4E44AA6A165C954700D274C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E44AA6B165C954700D274C3 /* Build configuration list for PBXNativeTarget "TaggleIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E44AA6C165C954700D274C3 /* Debug */,
+				4E44AA6D165C954700D274C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E44AA6E165C954700D274C3 /* Build configuration list for PBXNativeTarget "TaggleItTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E44AA6F165C954700D274C3 /* Debug */,
+				4E44AA70165C954700D274C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E44AA29165C954700D274C3 /* Project object */;
+}
